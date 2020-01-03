@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Weather</title>
+		<link rel="icon" href="/img/weather.png">
+		<link rel="stylesheet" href="/css/style.css">
+		<!-- <script src="/js/app.js"> </script>    script cannont be put here because the elements its --> <!-- selecting might not be present here -->
+		<!-- <script src="/js/clientEndPoint.js"> </script> -->
+	</head>
+	<body>
+		<div class="main_content">
+			{{> header}}
+			<form>
+				<input placeholder="location">
+				<button> Search </button>
+			</form>
+			<p id="error"> </p>
+			<p id="message"> </p>
+		</div>
+		{{> footer}}
+		<script src="/js/app.js"> </script>
+	</body>
+</html>

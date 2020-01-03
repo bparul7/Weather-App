@@ -1,0 +1,83 @@
+.ftr {
+	font-family: Arial;
+	color : #888888;
+	border-top :1px solid #222222;
+	font-size: 18px;
+	width: 700px;
+	margin : 29px;
+	margin-left: 40px;
+	padding : 3px;
+}
+
+.links {
+	font-family: Arial;
+	font-size: 20px;
+	color: #888888;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.headings {
+	font-family : Arial;
+	font-size: 70px;
+	color : #777777;
+	margin: 16px auto;
+	margin-top : 10px;
+	margin-bottom: 16px;
+}
+
+form {
+	margin-top: 50px;
+	padding: 13px;
+}
+
+input {
+	padding : 5px;
+	margin-right: 12px;
+	width : 250px;
+	border : 3px solid #cccccc;
+}
+
+#error {
+	margin-top: 50px;
+	border-bottom : 1px dashed #999999;
+}
+
+#message {
+	border-bottom : 1px dashed #999999;
+}
+
+button {
+	padding : 7px;
+	width : 100px;
+	cursor : pointer;
+	border : 1px solid #888888;
+	background-color: #888888;
+	color : white;
+}
+img {
+	width : 300px;
+}
+
+body {
+	color : #333333;
+	font-family: arial;
+	max-width: 700px;
+	margin: 20px;
+	display : flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.hdr {
+	width : 700px;
+	margin : 0 auto;
+	margin-bottom: 50px;
+	margin-top: 16px;
+}
+
+.main_content {
+	flex-grow: 1;
+	max-width: 600px;
+	margin:auto;
+}
