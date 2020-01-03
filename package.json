@@ -16,5 +16,9 @@
     "url": "https://github.com/bparul7/Weather-App/issues"
   },
   "homepage": "https://github.com/bparul7/Weather-App#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6"
+  }
 }
